@@ -1,0 +1,31 @@
+<!doctype html>  
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <title>IoT</title>
+</head>
+<body>
+    <h1>Это моя первая html страница</h1>
+    <div id="app">
+        {{ text }}
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        
+        let app = new Vue({
+            el: '#app',
+            data: {
+                text: 'Hello IoT!'
+            }
+        })
+    </script>
+</body>
+</html>
